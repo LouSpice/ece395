@@ -1,0 +1,43 @@
+*{
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  padding: 0;
+}
+@font-face {
+	font-family: Simplifica;
+	src: url(SIMPLIFICATypeface.ttf);
+}
+.navbar{
+	background-color: rgb(171, 170, 175);
+}
+.navbar-brand{
+	color: white;
+}
+.navbar-brand:hover{
+	color: rgb(48, 48, 48);
+}
+.nav .active a{
+	color: white;
+}
+.nav .active a:hover{
+	color: rgb(48, 48, 48);
+	background-color: rgb(224, 224, 224);
+}
+
+.nav .dropdown .cole a{
+	color: rgb(103, 102, 107);
+}
+.navbar .navbar-header .navbar-toggle{
+	border-color: black;
+}
+.navbar .navbar-header .navbar-toggle .icon-bar{
+	background-color: black;
+}
+#navi {
+	
+}
+.leftbar{
+	color: red;
+}
